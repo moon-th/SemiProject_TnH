@@ -1,0 +1,120 @@
+/* 여기서부터 트리 */
+.tree {
+    color: #393939;
+}
+
+.tree, .tree ul {
+    list-style: none;
+    padding-left: 17px;
+}
+
+.tree *:before {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+}
+
+.tree label {
+    cursor: pointer;
+}
+
+.tree label:before {
+    content: '\e800';
+    font-family: fontello;
+}
+
+.tree li>ul>li:hover{
+    color: rgb(240, 128, 108);
+}
+
+/* .tree a {
+    text-decoration: none;
+    color: #393939;
+}
+
+.tree a:before {
+    content: '\e801';
+    font-family: fontello;
+} */
+
+.tree input[type="checkbox"] {
+    display: none;
+}
+
+.tree input[type="checkbox"]:checked~ul {
+    display: none;
+}
+
+.tree input[type="checkbox"]:checked+label:before {
+    content: '\e801';
+    font-family: fontello;
+}
+
+/* 여기서부터 트리 끝 */
+
+/* 여기서부터 트리2 시작 */
+
+.tree2 {
+    color: #393939;
+}
+
+.tree2, .tree2 ul {
+    list-style: none;
+    padding-left: 17px;
+}
+
+.tree2 *:before {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+}
+
+.tree2 label {
+    cursor: pointer;
+}
+
+.tree2 label:before {
+    content: '\e802';
+    font-family: fontello;
+}
+
+.tree2 li>ul>li:hover{
+    color: rgb(240, 128, 108);
+}
+
+/* .tree a {
+    text-decoration: none;
+    color: #393939;
+}
+
+.tree a:before {
+    content: '\e801';
+    font-family: fontello;
+} */
+
+#checklist {
+    display: none;
+}
+
+#Approver {
+    display: none;
+}
+
+#referlist {
+    display: none;
+}
+
+.tree2 input[type="checkbox"]:checked~ul {
+    display: none;
+}
+
+.tree2 input[type="checkbox"]:checked+label:before {
+    content: '\e803';
+}
+
+/* 여기서부터 트리2 끝 */
+/* 여기서부터 트리2 끝 */
+
+
+
+/* 여기서부터 트리2 끝 */

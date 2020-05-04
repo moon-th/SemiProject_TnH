@@ -1,0 +1,9 @@
+List of Fonts used in template
+
+
+
+Font Awesome		http://fortawesome.github.io/Font-Awesome
+Open Sans		http://www.google.com/fonts/specimen/Open+Sans
+Signika			http://www.google.com/fonts/specimen/Signika
+Pacifico		http://www.google.com/fonts/specimen/Pacifico
+Quattrocento		http://www.google.com/fonts/specimen/Quattrocento

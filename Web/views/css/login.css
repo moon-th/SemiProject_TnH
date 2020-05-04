@@ -1,0 +1,28 @@
+@charset "utf-8"; 
+ 
+ #navi {padding:0;margin:0; list-style:none;   font-family:"Times New Roman", Times, serif}
+ #navi li {float:left; margin-right:10px; position:relative;}
+ 
+ #navi a:link, a:visited {color:#000;text-decoration:none;}
+ #navi a:hover, a:active {color:#c00;text-decoration:none;}
+ 
+ #content{clear:both;width:500px;height:500px;;background:#ccc;color:#999;}
+  
+ #loginLabel {display:block;}
+  
+.closeBtn {cursor:pointer;  float:right;margin-right:5px; padding-top:15px; background:url(./images/closeBtn.gif) no-repeat bottom; width:19px;height:19px; }
+
+.loginbox {display:none; width:213px;height:101px; padding-left:7px;padding-top:35px;  background:#000;color:#39b; font-family:'돋움';font-weight:bold; font-size:11px;position:absolute;}
+.loginbox form {margin:0;padding:0;}
+.loginbox p{margin-top:0px;margin-bottom:8px; .margin-bottom:6px;}
+.loginbox #logid, #logpw {background:#2e4148;color:#fff; border-width:0px; width:110px; padding:3px;margin:0px;}  
+.loginbox label{width:24px; display:inline-block;margin:0;padding:0;} 
+ 
+.loginBtn {float:right; margin-top:-60px; margin-right:5px; } 
+
+.loginbox .memberInfo {margin-top:13px;float:left;}
+
+
+
+
+
